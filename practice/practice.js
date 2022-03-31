@@ -44,3 +44,6 @@
 //       console.log('Goodnight')
 // }
 
+let message = 'some string';
+
+// console.log(typeof message)
