@@ -44,6 +44,51 @@
 //       console.log('Goodnight')
 // }
 
-let message = 'some string';
+// types of falsy value 
+// undefined 
+// NaN 
+// 0 
 
-// console.log(typeof message)
+const isAuthenticated = false;
+// let cartItemCount = 0;
+
+// if (isAuthenticated) {
+//   // add item to cart
+//   cartItemCount = 1;
+// } else {
+//   // tell user to login
+// //   console.log("Please log in!");
+//   cartItemCount = 0;
+// }
+
+//this is a ternaries for some sorts of conditionals that dont need much action
+
+// const cartItemCount = isAuthenticated ? 1 : console.log("Please log in!")
+// console.log(cartItemCount);
+
+
+// const age = 20; 
+ 
+// let greeting;
+
+// if (age < 10 ) {
+//     greeting = "Hey there";
+// } else {
+//     greeting = "That's an interesting age!"
+// }
+
+// console.log(greeting)
+// let age = 0
+// const greeting = age < 10 ? "Hey there" : "That's an interesting age!";
+// console.log(greeting);
+
+// let age = 20 
+// const greeting = age < 21 ? "Sorry we cant let u in" : "welcome , have a good time"
+
+// console.log(greeting)
+
+// let age = 12
+// const greeting = age < 10 ? "Greetings!" : age > 18 ? "greetings" : age > 10 ? "whats up" : "that's an interesting age!" ;
+// console.log(greeting)
+
+alert('hi')
