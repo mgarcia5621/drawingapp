@@ -4,13 +4,18 @@ canvas.height = 400;
 
 
 let context = canvas.getContext("2d");
-context.fillStyle = "white";
+let start_background_color = "white";
+context.fillStyle = start_background_color;
 context.fillStyle(0, 0, canvas.width, canvas.height);
 
 
 let draw_color = "black";
 let draw_width = "2";
 let is_drawing = false;
+
+function change_color (element) {
+    draw_color = element.style.background;
+}
 
 canvas.addEventListener("touchstart", start, false);
 canvas.addEventListener("touchmouve", draw , false);
@@ -50,4 +55,10 @@ function stop (event) {
         is_drawing = false
     }
     event.preventDefault();
+}
+
+function clear_canvas() {
+    context.fillStyle = start_background_color;
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    context.fillRect(0, 0, canvas.width, canvas.height);
 }

@@ -91,4 +91,4 @@ const isAuthenticated = false;
 // const greeting = age < 10 ? "Greetings!" : age > 18 ? "greetings" : age > 10 ? "whats up" : "that's an interesting age!" ;
 // console.log(greeting)
 
-alert('hi')
+
